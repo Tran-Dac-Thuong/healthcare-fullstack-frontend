@@ -1,120 +1,258 @@
 {
-    "common": {
-        "add": "Add",
-        "edit": "Edit",
-        "delete": "Delete",
-        "decentralize": "Decentralize",
-        "close": "Close",
-        "save": "Save",
-        "refresh": "Refresh",
-        "accept": "Accept",
-        "confirm": "Confirm",
-        "confirm-this-task": "Are you sure to process this task?",
-        "fail-to-load-data": "Fail to load data",
-        "unknown-error": "There was an error",
-        "internal-server-error": "Internal server error",
-        "bad-request": "Bad request",
-        "forbiden-request": "Invalid input data",
-        "fail-to-load-all-code": "Fail to load data from allcode",
-        "sum": "Sum",
-        "date-range-invalid": "Date range invalid"
-    },
-    "login": {
-        "login": "Login",
-        "username": "Username",
-        "password": "Password",
-        "userpass-wrong": "Invalid username or password!"
-    },
-    "menu": {
-        "system": {
-            "header": "System",
-            "system-administrator": {
-                "header": "System Administrator",
-                "user-manage": "User manage",
-                "product-manage": "Package manage",
-                "register-package-group-or-account": "Register service package for group/account"
-            },
-            "system-parameter": {
-                "header": "System-parameter"
-            }
-        }
-    },
+  "homeheader": {
+    "speciality": "Medical specialty",
+    "searchdoctor": "Find a doctor by specialty",
+    "health-facility": "health facility",
+    "select-room": "Choose hospital clinic",
+    "doctor": "Doctor",
+    "select-good-doctor": "Choose a good doctor",
+    "fee": "Checkup package",
+    "check-health": "General health check",
+    "support": "Support",
+    "welcome": "Hello"
+  },
+  "banner": {
+    "title1": "MEDICAL BACKGROUND",
+    "title2": "COMPREHENSIVE HEALTH CARE",
+    "child1": "Specialized examination",
+    "child2": "Remote examination",
+    "child3": "General examination",
+    "child4": "Medical test",
+    "child5": "Mental health",
+    "child6": "Dental examination",
+    "child7": "Surgery pack",
+    "child8": "Medical products",
+    "child9": "Corporate health"
+  },
+  "common": {
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "decentralize": "Decentralize",
+    "close": "Close",
+    "save": "Save",
+    "refresh": "Refresh",
+    "accept": "Accept",
+    "confirm": "Confirm",
+    "confirm-this-task": "Are you sure to process this task?",
+    "fail-to-load-data": "Fail to load data",
+    "unknown-error": "There was an error",
+    "internal-server-error": "Internal server error",
+    "bad-request": "Bad request",
+    "forbiden-request": "Invalid input data",
+    "fail-to-load-all-code": "Fail to load data from allcode",
+    "sum": "Sum",
+    "date-range-invalid": "Date range invalid"
+  },
+  "login": {
+    "login": "Login",
+    "username": "Username",
+    "password": "Password",
+    "userpass-wrong": "Invalid username or password!"
+  },
+  "menu": {
     "system": {
-        "user-manage": {
-            "fail-to-load-fouser": "Fail to load system users list",
-            "user-id": "User ID",
-            "usertype": "User type",
-            "username": "Username",
-            "fullname": "Fullname",
-            "mobile": "Phone",
-            "email": "Email",
-            "status": "Status",
-            "add-user": "Add user",
-            "edit-user": "Edit user information",
-            "password": "Password",
-            "retype-password": "Retype password",
-            "add-user-success": "Add user successfully",
-            "edit-user-success": "Change user information successfully",
-            "add-user-fail": "Fail to add user",
-            "edit-user-fail": "Fail to change user information",
-            "del-user-success": "Delete user successfully",
-            "del-user-fail": "Fail to delete user",
-            "invalid-input": {
-                "username": "Please fill in username",
-                "fullname": "Please fill in fullname",
-                "password": "Please fill in password"
-            },
-            "sure-delete-user": "Are you sure to delete this user?"
-        },
-        "product-manage": {
-            "fail-to-load-foprtype": "Fail to load packages list",
-            "prid": "Package ID",
-            "prname": "Package name",
-            "prtype": "Package type",
-            "status": "Status",
-            "description": "Description",
-            "effective-date": "Effective date",
-            "expiration-date": "Expiration date",
-            "add-product": "Add package",
-            "add-product-success": "Add package successfully",
-            "add-product-fail": "Fail to add package",
-            "edit-product": "Edit package information",
-            "package-decentralize": "Package decentralize",
-            "edit-product-success": "Edit package information successfully",
-            "edit-product-fail": "Fail to edit package information",
-            "delete-product-success": "Delete package successfully",
-            "delete-product-fail": "Fail to delete package",
-            "invalid-input": {
-                "prid": "Please fill in package ID",
-                "prname": "Please fill in package name"
-            },
-            "fail-to-load-decentralize-info": "Fail to load decentralize info",
-            "save-decentralize-success": "Save decentralization successfully",
-            "save-decentralize-fail": "Fail to save decentralization",
-            "sure-delete-package": "Are you sure to delete this package?"
-        },
-        "register-package-group-or-acc": {
-            "assign-service-package-to-customer": "Assign service package to customer",
-            "package-name": "Package name",
-            "assign-type": "Assign type",
-            "cust-acc-group": "Customer/account group",
-            "effective-date": "Effective date",
-            "expiration-date": "Expiration date",
-            "assign": "Assign",
-            "manage-assign-groups": "Manage assign groups",
-            "group-cust-acc-name": "Group/customer account name",
-            "del-assign": "Del assign",
-            "fail-to-load-manage-assign-groups-list": "Fail to load manage assign groups list",
-            "invalid-selected": {
-                "currentfoProduct": "Invalid package",
-                "currentAssignType": "Invalid assign type",
-                "currentFoUser": "Invalid customer/account group"
-            },
-            "assign-service-package-to-customer-success": "Assign service package to customer successfully",
-            "assign-service-package-to-customer-fail": "Fail to assign service package to customer",
-            "remove-assign-success": "Unassign service package to customer successfully",
-            "remove-assign-fail": "Fail to unassign service package to customer",
-            "sure-delete-assign": "Are you sure to unassign service package to customer?"
-        }
+      "header": "System",
+      "system-administrator": {
+        "header": "System Administrator",
+        "user-manage": "User manage",
+        "user-redux": "Manage user using redux",
+        "register-package-group-or-account": "Register service package for group/account"
+      },
+      "system-parameter": {
+        "header": "System-parameter"
+      }
+    },
+    "admin": {
+      "manage-user": "User",
+      "manage-doctor": "Manage doctor",
+      "manage-admin": "Manage admin",
+      "crud": "CRUD User",
+      "crud-redux": "CRUD Redux",
+      "clinic": "Clinic",
+      "manage-clinic": "Manage clinic",
+      "specialty": "Specialty",
+      "manage-specialty": "Manage specialty",
+      "handbook": "Handbook",
+      "manage-handbook": "Manage handbook"
+    },
+    "doctor": {
+      "manage-schedule": "Manage Doctor's schedule",
+      "manage-patient": "Manage Doctor's patient"
     }
+  },
+  "system": {
+    "user-manage": {
+      "fail-to-load-fouser": "Fail to load system users list",
+      "user-id": "User ID",
+      "usertype": "User type",
+      "username": "Username",
+      "fullname": "Fullname",
+      "mobile": "Phone",
+      "email": "Email",
+      "status": "Status",
+      "add-user": "Add user",
+      "edit-user": "Edit user information",
+      "password": "Password",
+      "retype-password": "Retype password",
+      "add-user-success": "Add user successfully",
+      "edit-user-success": "Change user information successfully",
+      "add-user-fail": "Fail to add user",
+      "edit-user-fail": "Fail to change user information",
+      "del-user-success": "Delete user successfully",
+      "del-user-fail": "Fail to delete user",
+      "invalid-input": {
+        "username": "Please fill in username",
+        "fullname": "Please fill in fullname",
+        "password": "Please fill in password"
+      },
+      "sure-delete-user": "Are you sure to delete this user?"
+    },
+    "product-manage": {
+      "fail-to-load-foprtype": "Fail to load packages list",
+      "prid": "Package ID",
+      "prname": "Package name",
+      "prtype": "Package type",
+      "status": "Status",
+      "description": "Description",
+      "effective-date": "Effective date",
+      "expiration-date": "Expiration date",
+      "add-product": "Add package",
+      "add-product-success": "Add package successfully",
+      "add-product-fail": "Fail to add package",
+      "edit-product": "Edit package information",
+      "package-decentralize": "Package decentralize",
+      "edit-product-success": "Edit package information successfully",
+      "edit-product-fail": "Fail to edit package information",
+      "delete-product-success": "Delete package successfully",
+      "delete-product-fail": "Fail to delete package",
+      "invalid-input": {
+        "prid": "Please fill in package ID",
+        "prname": "Please fill in package name"
+      },
+      "fail-to-load-decentralize-info": "Fail to load decentralize info",
+      "save-decentralize-success": "Save decentralization successfully",
+      "save-decentralize-fail": "Fail to save decentralization",
+      "sure-delete-package": "Are you sure to delete this package?"
+    },
+    "register-package-group-or-acc": {
+      "assign-service-package-to-customer": "Assign service package to customer",
+      "package-name": "Package name",
+      "assign-type": "Assign type",
+      "cust-acc-group": "Customer/account group",
+      "effective-date": "Effective date",
+      "expiration-date": "Expiration date",
+      "assign": "Assign",
+      "manage-assign-groups": "Manage assign groups",
+      "group-cust-acc-name": "Group/customer account name",
+      "del-assign": "Del assign",
+      "fail-to-load-manage-assign-groups-list": "Fail to load manage assign groups list",
+      "invalid-selected": {
+        "currentfoProduct": "Invalid package",
+        "currentAssignType": "Invalid assign type",
+        "currentFoUser": "Invalid customer/account group"
+      },
+      "assign-service-package-to-customer-success": "Assign service package to customer successfully",
+      "assign-service-package-to-customer-fail": "Fail to assign service package to customer",
+      "remove-assign-success": "Unassign service package to customer successfully",
+      "remove-assign-fail": "Fail to unassign service package to customer",
+      "sure-delete-assign": "Are you sure to unassign service package to customer?"
+    }
+  },
+  "manage-user": {
+    "add": "Add new user",
+    "email": "Email",
+    "password": "Password",
+    "firstname": "First name",
+    "lastname": "Last name",
+    "phonenumber": "Phone number",
+    "address": "Address",
+    "gender": "Gender",
+    "position": "Position",
+    "roleId": "RoleID",
+    "image": "Image",
+    "save": "Save change",
+    "create": "Add new"
+  },
+  "doctor": {
+    "out-standing-doctor": "Last week's featured doctor",
+    "more-info": "EXPLORE MORE",
+    "specialty": "Popular specialties",
+    "detail-more": "EXPLORE MORE"
+  },
+
+  "manage-schedule": {
+    "manage-doctor-schedule": "Manage Doctor's schedule",
+    "choose-doctor": "Choose doctor",
+    "choose-date": "Choose date",
+    "save-change": "Save change"
+  },
+
+  "manage-doctor": {
+    "title": "Create doctor infomation",
+    "select-doctor": "Select doctor",
+    "doctor-infomation": "Doctor infomation",
+    "price": "Price",
+    "payment": "Payment",
+    "province": "Province",
+    "name-clinic": "Clinic name",
+    "address-clinic": "Clinic address",
+    "note": "Note",
+    "create": "Add new",
+    "specialty": "Choose specialty",
+    "clinic": "Choose clinic"
+  },
+  "patient": {
+    "detail-doctor": {
+      "schedule": "SCHEDULE",
+      "no-schedule": "No appointment for this date, please choose another date",
+      "choose": "Choose",
+      "book-free": "and book (Scheduling fee 0 VND)"
+    },
+    "extra-info-doctor": {
+      "text-address": "ADDRESS OF EXAMINATION",
+      "price": "EXAMINATION PRICE",
+      "detail": "See details",
+      "payment": "The clinic has payment in the form of ",
+      "hide-price": "Hide price list"
+    },
+    "booking-modal": {
+      "title": "BOOK YOUR SCHEDULE",
+      "fullname": "Fullname",
+      "phone-number": "Phone number",
+      "address": "Address",
+      "email": "Email",
+      "reason": "Reason for examination",
+      "date": "Day of birth",
+      "gender": "Gender",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "price": "EXAMINATION PRICE: "
+    },
+    "healthy": {
+      "important": "Things to do to have a healthy lifestyle"
+    }
+  },
+  "telemedicine": {
+    "Telemedicine-via-Video": "Telemedicine via Video"
+  },
+  "Outstanding-medical-facility": {
+    "medical": "Outstanding medical facility"
+  },
+  "handbook": "Handbook",
+  "post": "ALL POSTS",
+  "long-text": "A healthy lifestyle isn't as simple as eating a few salads every once in a while or going for a short walk every few weeks. On the other hand, while it takes more effort to lead a healthy lifestyle, it is well worth it if you want to stay healthy. To maintain a healthy lifestyle, you need to be persistent in choosing healthy foods, incorporating more exercise and physical activity into your daily routine, and maintaining good hygiene. In addition, you need to avoid unhealthy habits such as fasting and not getting enough sleep. To improve your lifestyle, you need to make changes slowly and once you do, your health will be better.",
+  "total": "Summary of costs for liver cancer screening at some hospitals in Ho Chi Minh City",
+  "footer": {
+    "content": "HealthCare is always the number one choice for you because we always bring you the best experience like no other.",
+    "links": "Links",
+    "follow": "Follow us",
+    "contact": "Contact us",
+    "address": "Address",
+    "phone": "Phone",
+    "home": "HOME",
+    "about": "ABOUT US",
+    "service": "SERVICES",
+    "copyright": "Copyright © 2022 By Tran Dac Thuong. All rights Reserved"
+  }
 }

@@ -1,0 +1,12 @@
+.more-info {
+  display: flex;
+
+  gap: 20px;
+  margin-bottom: 30px;
+  .content-left {
+    width: 40%;
+  }
+  .content-right {
+    width: 60%;
+  }
+}

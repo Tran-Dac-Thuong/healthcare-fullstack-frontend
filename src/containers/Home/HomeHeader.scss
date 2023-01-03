@@ -1,0 +1,188 @@
+.home-header-container {
+  width: 100%;
+  height: 80px;
+  padding: 0 40px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  .home-header-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    .left-content {
+      width: 20%;
+
+      display: flex;
+      align-items: center;
+      .header-logo {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-top: 18px;
+        i {
+          color: #49bce2;
+          font-size: 35px;
+          margin-bottom: 6px;
+        }
+
+        font-size: 25px;
+        font-weight: 600;
+        color: #49bce2;
+        width: 150px;
+        cursor: pointer;
+        margin-left: 10px;
+      }
+      i {
+        font-size: 25px;
+        color: gray;
+        cursor: pointer;
+        margin-left: 30px;
+      }
+    }
+    .center-content {
+      width: 55%;
+
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      .sub-title {
+        font-weight: 300;
+        font-size: 10px;
+      }
+    }
+    .right-content {
+      width: 25%;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      i {
+        font-size: 20px;
+        color: #49bce2;
+        cursor: pointer;
+      }
+      .language-vi {
+        cursor: pointer;
+      }
+      .language-vi:hover {
+        color: red;
+      }
+      .language-vi.active {
+        color: red;
+      }
+      .language-en {
+        cursor: pointer;
+      }
+      .language-en:hover {
+        color: #49bce2;
+      }
+      .language-en.active {
+        color: #49bce2;
+      }
+    }
+  }
+}
+.home-header-banner {
+  background-image: url("../../assets/banner/clinic-pixel.jpg");
+
+  height: 625px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  .content-up {
+    height: 65%;
+    padding-top: 20px;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.25),
+      rgba(255, 255, 255, 0.1)
+    );
+    .title-1 {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 30px;
+      text-shadow: 1px 1px 1px #333;
+      color: #fff;
+      margin-bottom: 5px;
+    }
+    .title-2 {
+      text-align: center;
+      font-size: 35px;
+      color: #fff;
+      font-weight: 600;
+      text-shadow: 1px 1px 1px #333;
+      margin-bottom: 25px;
+    }
+    .search {
+      background-color: #49bce2;
+      border-radius: 30px;
+      padding: 14px 10px;
+      width: 465px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin: 0 auto;
+      input {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        flex: 1;
+        color: white;
+      }
+      ::placeholder {
+        color: white;
+      }
+      i {
+        margin-left: 5px;
+        color: white;
+      }
+    }
+  }
+  .content-down {
+    height: 35%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 1)
+    );
+    .option {
+      display: flex;
+      justify-content: space-around;
+      gap: 30px;
+      .option-child {
+        width: 110px;
+        text-align: center;
+
+        .icon-child {
+          background-color: white;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          line-height: 58px;
+          margin: 0 auto;
+          box-shadow: 0px 1px 2px gray;
+          i {
+            font-size: 24px;
+            color: #49bce2;
+          }
+        }
+        .text-child {
+          font-size: 18px;
+          font-weight: 500;
+        }
+        .text-child:hover {
+          color: #49bce2;
+        }
+      }
+    }
+  }
+}

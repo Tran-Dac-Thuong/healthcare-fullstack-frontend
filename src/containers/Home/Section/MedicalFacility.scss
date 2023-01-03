@@ -1,0 +1,92 @@
+.section-medical {
+  height: 330px;
+
+  .medical-content {
+    margin: 0 170px;
+  }
+
+  .medical-header {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+
+    .title-text {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    button {
+      border: none;
+      outline: none;
+      cursor: pointer;
+      background-color: #eceaea;
+      color: gray;
+      padding: 10px 15px;
+    }
+    button:hover {
+      background-color: #f7d800;
+      color: white;
+    }
+    .xemthem {
+      font-size: 10px;
+    }
+  }
+  .medical-body {
+    .img {
+      .bg-img {
+        //background-image: url("../../../assets/medicalFacility/specialty01.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 150px;
+        width: 278px;
+      }
+    }
+    .img:hover {
+      color: #49bce2;
+    }
+    .slick-prev {
+      background-color: #fff !important;
+      left: -22px !important;
+      z-index: 10 !important;
+      width: 44px !important;
+      height: 48px !important;
+      border: 1px solid #d7d7d7 !important;
+      margin-top: -12px;
+    }
+    .slick-prev:hover {
+      background-color: #eceaea !important;
+    }
+    .slick-prev::before {
+      font-family: FontAwesome !important;
+      color: black !important;
+      line-height: 46px !important;
+      margin-left: 11px;
+      //   content: "\e257" !important;
+    }
+    .slick-next {
+      background-color: #fff !important;
+      border: 1px solid #d7d7d7 !important;
+      margin-top: -12px;
+      right: -20px !important;
+      width: 44px !important;
+      height: 48px !important;
+    }
+    .slick-next:hover {
+      background-color: #eceaea !important;
+    }
+    .slick-next::before {
+      font-family: FontAwesome !important;
+      color: black !important;
+      line-height: 46px !important;
+      margin-left: 11px;
+
+      //   content: "\e258" !important;
+    }
+    .slick-disabled {
+      display: none !important;
+    }
+  }
+  .bottom {
+    height: 300px;
+  }
+}

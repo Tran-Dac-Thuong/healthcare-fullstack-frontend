@@ -1,0 +1,35 @@
+.doctor-extra-info-container {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .content-up {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    .text-address {
+      color: #666;
+    }
+    .name-clinic {
+      margin-top: 10px;
+      font-weight: 600;
+    }
+    .detail-address-clinic {
+      margin-top: 10px;
+      color: #333;
+    }
+  }
+  .content-down {
+    color: #666;
+    margin-bottom: 30px;
+    .price {
+      color: gray;
+    }
+    .more {
+      color: #45c3d2;
+      cursor: pointer;
+    }
+    .pay {
+      font-weight: 600;
+    }
+  }
+}

@@ -1,0 +1,126 @@
+.section-footer {
+  background-color: #49bce2;
+  width: 100%;
+  padding: 60px 0 50px;
+  color: white;
+  font-size: 15px;
+  line-height: 20px;
+}
+.row-footer {
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: auto;
+}
+.col-footer {
+  flex-basis: 25%;
+  padding: 10px;
+}
+.col-footer h3 {
+  width: fit-content;
+  margin-bottom: 30px;
+  position: relative;
+}
+.link {
+  margin-left: 25px;
+  position: relative;
+  width: fit-content;
+  margin-bottom: 30px;
+}
+.col-footer ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.col-footer ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+.col-footer ul li a:hover {
+  color: black;
+}
+.col-footer .fab {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  line-height: 40px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#facebook:hover {
+  background-color: blue;
+  color: white;
+}
+#twitter:hover {
+  background-color: #00ccff;
+  color: white;
+}
+#youtube:hover {
+  background-color: red;
+  color: white;
+}
+#instagram:hover {
+  background: radial-gradient(
+    circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  );
+  color: white;
+}
+#twitch:hover {
+  background-color: #9900ff;
+  color: white;
+}
+#linkedin:hover {
+  background-color: #3333ff;
+  color: white;
+}
+// .col:nth-child(2),
+// .col:nth-child(3) {
+//   flex-basis: 15%;
+// }
+// .col p {
+//   margin-bottom: 20px;
+// }
+
+hr {
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid white;
+  margin: 10px auto;
+}
+.copyright {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  i {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 6px;
+  }
+
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  width: 150px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
