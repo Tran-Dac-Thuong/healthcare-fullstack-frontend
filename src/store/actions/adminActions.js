@@ -34,7 +34,7 @@ export const fetchGenderStart = () => {
   return async (dispatch, getState) => {
     try {
       dispatch({ type: actionTypes.FETCH_GENDER_START });
-      let res = await getAllcodeService("gender");
+      let res = await getAllcodeService("GENDER");
       if (res && res.errCode === 0) {
         dispatch(fetchGenderSuccess(res.data));
       } else {
@@ -51,7 +51,7 @@ export const fetchPositionStart = () => {
   return async (dispatch, getState) => {
     try {
       dispatch({ type: actionTypes.FETCH_GENDER_START });
-      let res = await getAllcodeService("position");
+      let res = await getAllcodeService("POSITION");
       if (res && res.errCode === 0) {
         dispatch(fetchPositionSuccess(res.data));
       } else {
@@ -68,7 +68,7 @@ export const fetchRoleStart = () => {
   return async (dispatch, getState) => {
     try {
       dispatch({ type: actionTypes.FETCH_GENDER_START });
-      let res = await getAllcodeService("role");
+      let res = await getAllcodeService("ROLE");
       let res1 = await getDoctorHome(3);
       console.log("Check res1: ", res1);
       if (res && res.errCode === 0) {
